@@ -116,13 +116,13 @@
 	justify-content: center;
 }
 
-.section__slider p a{
+.slider__boton p a{
 	text-decoration: none;
 	color: black;
-	opacity: .95;
+	opacity: .9;
 }
 
-.section__slider p:hover a:hover{
+.slider__boton p:hover a:hover{
 	opacity: 1;
 }
 
