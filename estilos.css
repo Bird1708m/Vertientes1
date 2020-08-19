@@ -81,18 +81,18 @@
 }
 
 .section__slider{
-	background-color: white;
+	background-color: red;
 	width: 100%;
-	height: 30em;
+	margin: auto;
 	overflow: hidden;
-	border-top: 1px solid #7285a5;
-	border-bottom: 1px solid #7285a5;
+	border-top: 2px solid #7285a5;
+	border-bottom: 2px solid white;
 }
 
 .slider__boton{
 	position: absolute;
 	width: 20em;
-	height: 5em;
+	height: 4em;
 	display: block;
 	top: 50%;
 	margin-top: -2.5em;
@@ -119,7 +119,7 @@
 .slider__boton p a{
 	text-decoration: none;
 	color: black;
-	opacity: .9;
+	opacity: .8;
 }
 
 .slider__boton p:hover a:hover{
@@ -128,6 +128,7 @@
 
 .section__slider ul{
 	display: flex;
+	padding: 0;
 	width: 300%;
 	animation: cambio 20s infinite;
 }
@@ -135,10 +136,13 @@
 .section__slider li{
 	list-style: none;
 	width: 100%;
+	height: 34em;
 }
 
 .section__slider img{
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 @keyframes cambio{
@@ -154,7 +158,6 @@
 
 .section__central{
 	width: 100%;
-	height: 18em;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
@@ -174,10 +177,11 @@
 
 .central__cajas img{
 	position: relative;
-	height: 16em;
-	width: 16em;
-	border: 1px solid #7285a5;
+	height: 85%;
+	width: 80%;
+	border: 1px solid white;
 	opacity: .85;
+	margin: 10% 0;
 }
 
 .central__cajas img:hover{
@@ -187,29 +191,25 @@
 .section__texto{
 	background-color: #1d2951;
 	width: 100%;
-	height: 18em;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+	justify-content: center;
 	font-family: 'Cinzel', serif;
-	border-bottom: 1px solid #7285a5;
-	margin-top: 1px;
+	border-bottom: 2px solid white;
 }
 
 .section__texto p{
 	width: 69%;
-	height: 10em;
-	font-size: 22px;
+	font-size: 1.4em;
 	color: white;
-	position: relative;
-	top: 1.8em;
+	margin: 3% 0;
 }
 
 .footer{
 	background-color: #111e6c;
 	width: 100%;
-	height: 12em;
-	border-top: 1px solid #7285a5;
+	border-top: 2px solid #7285a5;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
@@ -230,4 +230,11 @@
 	color: white;
 	font-family: 'Alata', sans-serif;
 	opacity: .8;
+	margin: 20% 0;
+}
+
+@media screen and (max-width: 1100px){
+	.header{
+		display: none;
+	}
 }
