@@ -81,6 +81,30 @@
 	border-bottom: 1px solid #7285a5;
 }
 
+.section__slider p{
+	position: absolute;
+	border: 1px solid #7285a5;
+	font-size: 35px;
+	background-color: #000080;
+	opacity: .9;
+	width: 350px;
+	height: 60px;
+	padding: 8px 38px;
+	top: 420px;
+	left: 510px;
+	font-family: 'Alata', sans-serif;
+}
+
+.section__slider p a{
+	text-decoration: none;
+	color: white;
+	opacity: .8;
+}
+
+.section__slider p a:hover{
+	opacity: 1;
+}
+
 .section__slider ul{
 	display: flex;
 	width: 300%;
@@ -145,7 +169,7 @@
 	flex-flow: column nowrap;
 	align-items: center;
 	font-family: 'Cinzel', serif;
-	margin-top: 6px;
+	margin-top: 1px;
 }
 
 .section__texto p{
