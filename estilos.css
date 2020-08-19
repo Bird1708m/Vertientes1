@@ -86,7 +86,7 @@
 	margin: auto;
 	overflow: hidden;
 	border-top: 2px solid #7285a5;
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid #7285a5;;
 }
 
 .slider__boton{
@@ -95,7 +95,7 @@
 	height: 4em;
 	display: block;
 	top: 50%;
-	margin-top: -2.5em;
+	margin-top: -2em;
 	left: 50%;
 	margin-left: -10em;	
 }
@@ -177,11 +177,11 @@
 
 .central__cajas img{
 	position: relative;
-	height: 85%;
-	width: 80%;
+	height: 75%;
+	width: 70%;
 	border: 1px solid white;
 	opacity: .85;
-	margin: 10% 0;
+	margin: 13% 0;
 }
 
 .central__cajas img:hover{
@@ -196,7 +196,7 @@
 	align-items: center;
 	justify-content: center;
 	font-family: 'Cinzel', serif;
-	border-bottom: 2px solid white;
+	border-bottom: 2px solid #7285a5;
 }
 
 .section__texto p{
@@ -222,6 +222,7 @@
 	flex-flow: row nowrap;
 	align-items: center;
 	justify-content: center;
+	margin: 0 4.5%;
 }
 
 .footer__cajas p{
@@ -229,7 +230,6 @@
 	width: 15em;
 	color: white;
 	font-family: 'Alata', sans-serif;
-	opacity: .8;
 	margin: 20% 0;
 }
 
