@@ -166,8 +166,8 @@
 
 .central__cajas img{
 	position: relative;
-	height: 90%;
-	width: 80%;
+	height: 16em;
+	width: 16em;
 	border: 1px solid #7285a5;
 	opacity: .85;
 }
