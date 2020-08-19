@@ -1,13 +1,11 @@
 .general{
-	background-color: #4c516d;
+	background-color: #111e6c;
 	display: flex;
 	flex-flow: column nowrap;
 }
 
 .header{
-	display: flex;
-	flex-flow: column nowrap;
-	height: 65px;
+	height: 4em;
 }
 
 .barra{
@@ -22,22 +20,22 @@
 	background-color: #1d2951;
 	flex: 1 1 auto;
 	height: 100%;
-	width: 200px;
+	width: 15%;
 	display: flex;
 	align-items: center;
 }
 
 .logo img{
 	position: absolute;
-	left: 20px;
+	left: 1.5%;
 }
 
 .logo h1{
 	position: relative;
-	left: 45px;
+	left: 25%;
 	text-decoration: none;
 	font-size: 14px;
-	margin: 10px 20px;
+	margin: 0 15px;
 	color: white;
 	font-family: 'Spartan', sans-serif;
 }
@@ -49,7 +47,17 @@
 	flex: 7 1 auto;
 	height: 100%;
 	font-family: 'Alata', sans-serif;
-	margin-left: 400px; 
+	margin-left: 33%;
+}
+
+.nav{
+	background-color: #1d2951;
+	display: flex;
+	align-items: center;
+	flex: 7 1 auto;
+	height: 100%;
+	font-family: 'Alata', sans-serif;
+	margin-left: 33%; 
 }
 
 .nav a{
@@ -66,47 +74,61 @@
 
 .section{
 	margin-top: 1px;
-	width: 100%;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+	justify-content: center;
 }
 
 .section__slider{
-	background-color: white;
+	background-color: red;
 	width: 100%;
-	height: 450px;
+	margin: auto;
 	overflow: hidden;
-	border-top: 1px solid #7285a5;
-	border-bottom: 1px solid #7285a5;
+	border-top: 2px solid #7285a5;
+	border-bottom: 2px solid #7285a5;;
 }
 
-.section__slider p{
+.slider__boton{
 	position: absolute;
-	border: 1px solid #7285a5;
-	font-size: 35px;
-	background-color: #000080;
-	opacity: .9;
-	width: 350px;
-	height: 60px;
-	padding: 8px 38px;
-	top: 420px;
-	left: 510px;
-	font-family: 'Alata', sans-serif;
+	width: 20em;
+	height: 4em;
+	display: block;
+	top: 50%;
+	margin-top: -2em;
+	left: 50%;
+	margin-left: -10em;	
 }
 
-.section__slider p a{
+.slider__boton p{
+	border: 1px solid black;
+	font-size: 33px;
+	background-color: white;
+	opacity: .8;
+	width: 100%;
+	height: 100%;
+	padding: 0.5% 3%;
+	font-family: 'Alata', sans-serif;
+	border-radius: 20px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.slider__boton p a{
 	text-decoration: none;
-	color: white;
+	color: black;
 	opacity: .8;
 }
 
-.section__slider p a:hover{
+.slider__boton p:hover a:hover{
 	opacity: 1;
 }
 
 .section__slider ul{
 	display: flex;
+	padding: 0;
 	width: 300%;
 	animation: cambio 20s infinite;
 }
@@ -114,10 +136,13 @@
 .section__slider li{
 	list-style: none;
 	width: 100%;
+	height: 34em;
 }
 
 .section__slider img{
 	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 @keyframes cambio{
@@ -133,11 +158,10 @@
 
 .section__central{
 	width: 100%;
-	height: 280px;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
-	margin-top: 6px;
+	justify-content: center;
 }
 
 .central__cajas{
@@ -145,16 +169,19 @@
 	width: 100%;
 	height: 100%;
 	flex: 1 1 auto;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
 }
 
 .central__cajas img{
 	position: relative;
-	height: 260px;
-	width: 260px;
-	top: 10px;
-	left: 32px;
-	border: 1px solid #7285a5;
+	height: 75%;
+	width: 70%;
+	border: 1px solid white;
 	opacity: .85;
+	margin: 13% 0;
 }
 
 .central__cajas img:hover{
@@ -164,48 +191,50 @@
 .section__texto{
 	background-color: #1d2951;
 	width: 100%;
-	height: 280px;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
+	justify-content: center;
 	font-family: 'Cinzel', serif;
-	margin-top: 1px;
+	border-bottom: 2px solid #7285a5;
 }
 
 .section__texto p{
-	width: 900px;
-	height: 160px;
-	font-size: 22px;
+	width: 69%;
+	font-size: 1.4em;
 	color: white;
-	position: relative;
-	top: 32px;
-	margin-top: 4px;
+	margin: 3% 0;
 }
 
 .footer{
 	background-color: #111e6c;
 	width: 100%;
-	height: 160px;
-	margin-top: 1px;
-	border-top: 1px solid #7285a5;
+	border-top: 2px solid #7285a5;
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
+	justify-content: center;
 }
 
 .footer__cajas{
 	height: 100%;
-	position: relative;
-	left: 430px;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	justify-content: center;
+	margin: 0 4.5%;
 }
 
 .footer__cajas p{
 	font-size: 14px;
-	position: relative;
-	width: 225px;
+	width: 15em;
 	color: white;
 	font-family: 'Alata', sans-serif;
-	opacity: .8;
-	margin-top: 37px;
+	margin: 20% 0;
 }
 
+@media screen and (max-width: 1100px){
+	.header{
+		display: none;
+	}
+}
