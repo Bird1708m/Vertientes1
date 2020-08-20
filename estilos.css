@@ -188,6 +188,10 @@
 	opacity: 1;
 }
 
+.central__cajas2col{
+	display: flex;
+}
+
 .section__texto{
 	background-color: #1d2951;
 	width: 100%;
@@ -237,4 +241,10 @@
 	.header{
 		display: none;
 	}
+
+	.central__cajas2col{
+	display: flex;
+	flex-flow: row wrap;
+}
+
 }
