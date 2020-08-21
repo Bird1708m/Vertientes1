@@ -240,6 +240,7 @@
 }
 
 -------------------------------------------------------------------------------------------------------
+
 .body{
 	background-color: white;
 }
@@ -437,4 +438,72 @@
 	font-size: 0.9em
 }
 
+-------------------------------------------------------------------------------------------------------------------
 
+.ubic__content{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: white;
+	display: flex;
+	flex-flow: column nowrap;
+}
+
+.ubic__header{
+	color: #003152;
+	width: 50%;
+	margin: 2% 0%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	padding: 0 1%;
+	font-size: 2.5em;
+	font-family: "Times New Roman", Times, serif; 
+	position: relative;
+	left: 1%;
+}
+
+.princ__content{
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	margin: 2% 0;
+}
+
+.mapa-contenedor{
+	height: 35em; 
+	width: 40em;
+	border: 1.5px solid #7285a5;
+	position: relative;
+	left: 2%
+}
+
+.mapa-texto{
+	width: 47em;
+	height: 35em; 
+	display: flex;
+	flex-flow: column nowrap;
+	position: relative;
+	left: 5%;
+}
+
+.mapa-texto h2{
+	width: 60%;
+	height: 2.6em;
+	padding: 1% 2%;
+	font-family: 'Spartan', sans-serif;
+	font-size: 1.7em;
+	background-color: #1d2951;
+	border: 1.5px solid #7285a5;
+	color: white;
+	position: relative;
+	top: -4.2%;	
+	display: flex;
+	align-items: center;
+}
+
+.instrucciones{
+	width: 100%; 
+	font-size: 1.6em;
+	font-family: 'Spartan', sans-serif; 
+
+}
