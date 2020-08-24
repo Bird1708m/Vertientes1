@@ -543,6 +543,7 @@
 	height: 6.5rem;
 	align-items: center;
 	border-bottom: 2px solid #7285a5;
+	position: relative;
 }
 
 .logo2{
@@ -621,10 +622,12 @@
 		position: absolute;
 		display: flex;
 		flex-flow: column nowrap;
-		width: 10em;	
-		height: 13em;
+		border-top: 2px solid #7285a5;
+		width: 17rem;
+		height: 22rem;
 		top: 100%;
-		margin-left: -100%; 
+		left: -100%;
+		z-index: 100;
 	}
 
 	.nav2 a{
@@ -632,7 +635,7 @@
 	}
 
 	.boton__menu2:checked ~ .nav2{
-		margin-left: 64%;
+		left: 29%;
 	}
 }
 
@@ -645,6 +648,7 @@
 	flex-flow: column nowrap;
 	position: relative;
 	z-index: 50;
+
 }
 
 .ubic__header{
